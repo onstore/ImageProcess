@@ -86,8 +86,6 @@ class ImagePanel extends JPanel {
             }
 
             Graphics2D g2 = (Graphics2D) g;
-            //g2.drawImage(out, 0, 0, null);
-            //g2.dispose();
 
             // Show the image on the panel.
             tmpImg = Toolkit.getDefaultToolkit().createImage(out.getSource());
